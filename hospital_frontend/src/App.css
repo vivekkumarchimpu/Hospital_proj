@@ -1,0 +1,369 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.header{
+  height: 40px;
+  background-color: rgb(147, 51, 61);
+  color: white;
+  text-align: right;
+}
+.register h1 {
+  color:  rgb(39, 106, 107);
+}
+.register{
+  float: right;
+}
+.rside{
+  background-image: url("./hospital_image1.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+
+}
+.menu{
+  height: 35px;
+  background-color: rgb(35, 61, 118);   
+}
+.mbar{
+  margin: 5px;
+  padding: 5px;
+}
+.link1 {
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+}
+.link1:hover {
+  
+  color: rgb(55, 216, 73);
+  
+}
+
+.input{
+  height: 150px;
+  width: 300px;
+  padding-top: 10px;
+  text-align: center;
+  border: 2px solid white;
+  background-color: rgb(39, 106, 107);
+  border-radius: 10px;
+}
+
+.doctor-detail{
+  height: 350px ;
+  width: 650px;
+  text-align: center;
+  padding-left: 2px;
+  padding: 5px;
+  margin-left: 40px;
+  margin-top: 20px;
+  border: 2px solid white;
+  background-color: #686bf8;
+  border-radius: 10px;
+}
+
+.button{
+  height: 50px;
+  width: 300px;
+  border: 2px solid rgb(211, 225, 238);
+  border-radius: 15px;
+  text-align: center;
+  color: white;
+  background-color: rgb(55, 177, 148);
+  font-size: 25px;
+  padding: 3px;
+  
+}
+.button:hover{
+  background-color: green;
+  cursor: cell;
+}
+
+.leftside{
+  background-image: url("./hospital_image2.jpg");
+  height: 450px;
+  background-size: 100%;
+}
+/* label{
+  display: block;
+  width: 200px;
+  background-color: #282c34;
+  color: white;
+  padding: 12px;
+  margin: 10px auto;
+  border-radius: 5px;
+  cursor: pointer;
+}
+#input-file{
+  display: none;
+} */
+
+.link-admin{
+  float: right;
+  text-decoration: none;
+  font-size: 22px;
+  color: aqua;
+}
+.box{
+  margin: 30px 100px;
+  height: 100px;
+  width: 200px;
+  background-color: #3165cf;
+  color: aqua;
+  font-size: 22px;
+  text-align: center;
+  border: 2px solid white;
+  border-radius: 10px;
+  padding: 15px;
+}
+
+.box:hover{
+  background-color:#072c74;
+}
+.admin-header{
+  
+  text-align: center;
+  font-size: 22px;
+  color: aqua;
+  border: 2px solid burlywood;
+  background-color: #293a5d;
+}
+.admin{
+  margin: 70px 100px;
+  background-color: #3d60a5;
+  width: 500px;
+  height: 250px;
+  padding-left: 2px;
+  
+}
+.label{
+  font-size: 18px;
+  color: white;
+  margin: 5px;
+}
+.admin-btn{
+  margin-top: 2px;
+  float: right;
+  padding-right: 95px;  
+}
+.admin-bt:hover{
+  color: #cbebf4;
+  background-color: #293a5d;
+}
+.h-line{
+  display: block;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+  /* margin-left: auto;
+  margin-right: auto; */
+  border-style: inset;
+  border-width: 5px;
+  border-color: rgb(204, 207, 178);
+  
+}
+.Patientpanelheader{
+  
+  text-align: center;
+  font-size: 22px;
+  color: aqua;
+  border: 2px solid burlywood;
+  background-color: #293a5d;
+}
+.Doctorpanelheader{
+  
+  text-align: center;
+  font-size: 22px;
+  color: aqua;
+  border: 2px solid burlywood;
+  background-color: #293a5d;
+}
+.doctor{
+  background-color: #9ee717;
+  
+  text-align: center;
+}
+.submit-btn{
+  background-color: #2f3068;
+  color: white;
+  
+}
+
+.submit-btn:hover{
+  color: #050808;
+  background-color: #56d1d1;
+}
+.doctordetail{
+  height: 450px;
+  width: 750px;
+  padding: 10px 0px 0px 60px;
+  margin-right: 50px;
+  text-align: left;
+  border: 2px solid white;
+  background-color: #3d60a5;
+  color: white;
+  font-size: 20px;
+  border-radius: 8px;
+
+}
+.button1{
+  height: 40px;
+  width: 200px;
+  border: 2px solid rgb(217, 224, 231);
+  border-radius: 10px;
+  text-align: center;
+  color: white;
+  background-color: rgb(46, 44, 34);
+  font-size: 20px;
+  padding: 3px;
+  margin: 5px 0px 0px 460px;
+  
+}
+.button1:hover{
+  background-color: #638ee4;
+  color: black;
+  cursor: cell;
+}
+.h-line-drdetail{
+  display: block;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+  /* margin-left: auto;
+  margin-right: auto; */
+  border-style: inset;
+  border-width: 3px;
+  border-color: rgb(227, 247, 54);
+  width: 620px;
+}
+.footer{
+  height: 100px;
+}
+
+table{
+  width: 100%;
+  
+}
+table, tr, td, th{
+  border: 5px solid rgb(238, 226, 226);
+  font-family: Arial, Helvetica, sans-serif
+}
+
+tr:hover {
+  background-color: #263232;
+  color: rgb(94, 196, 227);
+}
+.px-2{
+  color: white;
+}
+
+.doctorDetail{
+  height: auto;
+  width: auto;
+  background-color: #257265;
+ 
+}
+.detailHeader{
+  display: flex
+}
+#head{
+  color: white;
+}
+
+.user-header{
+  
+  text-align: center;
+  font-size: 22px;
+  color: aqua;
+  border: 2px solid burlywood;
+  background-color: #293a5d;
+}
+.user{
+  margin: 70px 100px;
+  background-color: #5951cb;
+  width: 500px;
+  height: 250px;
+  padding-left: 2px;
+  
+}
+.label{
+  font-size: 18px;
+  color: white;
+  margin: 5px;
+}
+.user-btn{
+  margin-top: 2px;
+  float: right;
+  padding-right: 95px;  
+}
+.user-bt:hover{
+  color: #cbebf4;
+  background-color: #293a5d;
+}
+.patientdetail{
+  height: 450px;
+  width: 600px;
+  padding: 10px 0px 0px 60px;
+  margin-right: 300px;
+  text-align: left;
+  border: 2px solid white;
+  background-color: #3a5faa;
+  color: white;
+  font-size: 17px;
+  border-radius: 8px;
+}
+
+.patient-sub-btn{
+  width: 150px;
+  
+  margin: 10px 50px;
+  padding-left: 40px;
+  float: right;
+  padding-right: 98px;  
+  font-size: 20px;
+  border-radius: 10px;
+  background-color: #212148;
+}
+.patient-sub-btn:hover{
+  color: #0f0c0b;
+  background-color: #4ce486;
+  cursor: pointer;
+}
+
+
+
+
+
